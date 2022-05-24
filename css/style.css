@@ -367,8 +367,7 @@ color:#757575;
 }
 .social li {
 	flex-direction: row;
-	height:44px;
-	width:44px;
+	width:100%;
 	justify-content: center;
 	align-items: center;
 }
@@ -387,9 +386,7 @@ color:#757575;
 
 }
 .clients h2 {
-font-family: 'Roboto', sans-serif;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: 0.03em;
