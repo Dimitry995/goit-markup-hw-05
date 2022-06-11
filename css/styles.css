@@ -64,7 +64,7 @@ color:var(--main-color);
 .menu a:focus {
 	color:#2196F3;
 }
-a.logo  {
+.logo-top  {
 	width:250px;
 	color:#2196F3;
 	float:left;
@@ -497,8 +497,20 @@ margin-left:15px;
 .left li {
 	list-style:none;
 }
+.logo-bottom  {
+	width:250px;
+	color:#2196F3;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	margin-top: 32px;
+}
 .logo-color-white {
-	color:var(--main-color);
+	color:var(--third-color);
 }
 .addres {
 	margin-top: 111px;
