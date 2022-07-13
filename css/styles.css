@@ -306,7 +306,7 @@ color:var(--secondary-color);
 	position:relative;
 	
 }
-.img.block {
+.block {
 	position:absolute;
 	height:60px;
 	width:370px;
@@ -314,18 +314,11 @@ color:var(--secondary-color);
 	background: rgba(47, 48, 58, 0.8);
 	}
 .block a {
-font-family: 'Roboto', sanserif;
-font-style: normal;
 font-weight: 700;
-font-size: 14px;
-line-height: 16px;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-color: #FFFFFF;
-
-
+color:var(--third-color);
 }
 .person {
 	height:648px;
