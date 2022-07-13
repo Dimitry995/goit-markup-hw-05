@@ -458,8 +458,6 @@ padding-bottom: 50px;
 }
 .clients li:hover {
 	border: 1px solid var(--four-color);
-}
-.clients li:hover .clients-icon {
 	fill:var(---four-color);
 }
 /*index.html-END-*/
