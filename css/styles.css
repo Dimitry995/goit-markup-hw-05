@@ -301,7 +301,7 @@ color:var(--secondary-color);
 .img li:last-child {
 	padding-right:0;
 }
-.img img {
+.img-img {
 	width:370px;
 	height:294px;
 	position:relative;	
