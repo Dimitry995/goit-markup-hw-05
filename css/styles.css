@@ -729,7 +729,11 @@ color: var(--third-color);
 .email-phone:hover {
 	color:var(--four-color);
 }
-.footer-social-item:hover .footer-social-icon {
-	fill:var(--third-color);
+.footer-social-icon {
+fill:var(--third-color);	
+}
+.footer-social-item:hover{
+	border-radius:50%;
+	background-color:var(--four-color);
 }
 /*--FOOTER--END--*/
