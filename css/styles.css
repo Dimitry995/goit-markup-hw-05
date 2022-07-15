@@ -455,9 +455,9 @@ padding-bottom: 50px;
 
 }
 .clients li {
+	height:90px;
 	width:170px;
-	display: inline-flex;
-	border: 1px solid #AFB1B8;
+	border: 1px solid var(--eight-color);
 	border-radius: 4px;
 	display: flex;
 	justify-content: center;
