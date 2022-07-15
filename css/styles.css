@@ -162,8 +162,15 @@ color:var(--secondary-color);
 }
 .top-right:hover {
 	color:var(--four-color);
-	fill:var(--four-color);
-
+}
+.top-right:hover .top-icon {
+		fill:var(--four-color);
+}
+.top-right:focus {
+	color:var(--four-color);
+}
+.top-right:focus .top-icon {
+		fill:var(--four-color);
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
