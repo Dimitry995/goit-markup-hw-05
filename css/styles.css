@@ -598,22 +598,28 @@ margin-bottom:20px;
 /*--FOOTER--START--*/
 .footer {
 	height:252px;
-	background-color:#2F303A;
+	background-color:var(--six-color);
 	display: flex;
 	padding:60px 0;
+}
+.container-footer {
+	width:1200px;
+	margin:0 auto;
+	padding:0 15px;
+	display:flex;
+	align-items: baseline;
 }
 .footer-list {
 	display:flex;
 }
 .left {
-	width:300px;
-	float:left;
+	
 }
 .left a {
 	text-decoration: none;
 	}
 .left ul {
-	background-color:#2F303A;
+	background-color:var(--six-color);
 }
 .left li {
 	list-style:none;
@@ -641,12 +647,11 @@ li.email-phone {
 margin-bottom:9px;
 letter-spacing: 0.03em;
 text-align: left;
-color:#757575;
+color:var(--secondary-color);
 font-style: normal;
 }
 .center {
-float:left;
-width:300px;
+margin-left:70px;
 }
 .center h3 {
 font-weight: bold;
@@ -669,7 +674,7 @@ color: var(--third-color);
 	font-weight: bold;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: var(--third-color);
 	}
 	.right a {
 		margin-right:40px;
