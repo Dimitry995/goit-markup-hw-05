@@ -168,6 +168,7 @@ color:var(--secondary-color);
 	background-color:#2F303A;
 	background-image: url(../images/18.jpg);
 	text-align: center;
+	margin:0 auto;
 }
 .hero  h1 {
 	font-size: 44px;
@@ -347,7 +348,7 @@ font-size: 16px;
 letter-spacing: 0.03em;
 text-align: center;
 color:var(--secondary-color);
-margin-bottom:20px;
+margin-bottom:16px;
 font-weight:400;
 
 }
@@ -472,18 +473,6 @@ padding-bottom: 50px;
 	width:145px;
 	height:38px;
 }
-.top-filters a {
-	width:145px;
-	height:38px;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 0.03em;
-	text-align: center;
-	color:var(--main-color);
-	background: var(--five-color);
-	border-radius: 4px;
-
-}
 .filters-title {
 	display:none;
 }
@@ -491,6 +480,18 @@ padding-bottom: 50px;
 	margin-bottom:50px;
 	justify-content: center;
 }
+.filters-link {
+font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--main-color);
+    background: var(--five-color);
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: none;	
+}   
 .filters-item {
 	margin-right:20px;
 }
