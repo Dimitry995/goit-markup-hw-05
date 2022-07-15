@@ -397,12 +397,15 @@ border-radius: 0px 0px 4px 4px;
     box-shadow: none;
     border-radius:none;
 }
-.social svg {
-	margin:12px;
-	fill:var(--eight-color);
+.social-link {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.social li:last-child {
-	margin-right:26px;
+.social-icon {
+    fill: var(--eight-color);
 }
 .social li:hover .social-icon {
 	fill: var(--third-color);
@@ -411,21 +414,21 @@ border-radius: 0px 0px 4px 4px;
 	width:44px;
 	height:44px;
 	border-radius: 50%;
-	background-color: #2196F3;
+	background-color: var(--four-color);
+}
+.social li:last-child {
+	margin-right:26px;
 }
 .clients {
-	height:372px;
+
 
 }
 .clients h2 {
-font-family: 'Roboto', sans-serif;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
-line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
-color:#212121;
+color:var(--main-color);
 margin-top: 0;
 margin-bottom: 0;
 padding-bottom: 50px;
@@ -437,7 +440,6 @@ padding-bottom: 50px;
 
 }
 .clients li {
-	height:92px;
 	width:170px;
 	display: inline-flex;
 	border: 1px solid #AFB1B8;
