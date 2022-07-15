@@ -133,8 +133,14 @@ margin-left:93px;
 	margin-top: 32px;
 	width:300px;
 }
+.top-right a {
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--secondary-color);	
+}
 .top-icon {
 	margin-right:10px;
+	fill:var(--secondary-color);
 }
 .right  ul {
 	float:right;
