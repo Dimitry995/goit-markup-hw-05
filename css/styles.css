@@ -471,14 +471,14 @@ padding-bottom: 50px;
 	border: 1px solid var(--four-color);
 }
 .clients li:hover .clients-icon {
-	fill:var(---four-color);
+	fill:var(--four-color);
 }
 
 .clients li:focus {
 	border: 1px solid var(--four-color);
 }
 .clients li:focus .clients-icon {
-	fill:var(---four-color);
+	fill:var(--four-color);
 }
 .clients li:last-child {
 margin-right:0;	
