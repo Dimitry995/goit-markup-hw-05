@@ -324,6 +324,7 @@ color:var(--secondary-color);
 	width:370px;
 	bottom:0;
 	background: rgba(47, 48, 58, 0.8);
+	text-align:center;
 }
 .img-block a {
 font-weight: 700;
@@ -331,7 +332,8 @@ text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--third-color);
-	padding:27px 132px;
+	padding:27px 0;
+	display:block;
 }
 .person {
 	height:648px;
