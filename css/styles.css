@@ -463,8 +463,6 @@ padding-bottom: 50px;
 	justify-content: center;
 	align-items: center;
 	margin-right: 30px;
-
-
 }
 .clients-icon {
 	fill:var(--eight-color);
@@ -474,6 +472,16 @@ padding-bottom: 50px;
 }
 .clients li:hover .clients-icon {
 	fill:var(---four-color);
+}
+
+.clients li:focus {
+	border: 1px solid var(--four-color);
+}
+.clients li:focus .clients-icon {
+	fill:var(---four-color);
+}
+.clients li:last-child {
+margin-right:0;	
 }
 /*index.html-END-*/
 /*portfolio.html*/
