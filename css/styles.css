@@ -495,8 +495,6 @@ margin-right:0;
 }
 .top-filters li {
 	display:inline-block;
-	width:145px;
-	height:38px;
 }
 .filters-title {
 	display:none;
@@ -517,7 +515,7 @@ font-size: 16px;
     border: none;	
 }   
 .filters-item {
-	margin-right:20px;
+	margin-right:8px;
 }
 .filters-link:hover {
 	color:var(--third-color);
