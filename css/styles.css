@@ -99,7 +99,7 @@ a.logo  {
 	color:var(--main-color);
 }
 .navigation{
-	display: inline;
+	display: flex;
     margin-right: 0;
     padding-left: 0;
 }
@@ -114,20 +114,25 @@ letter-spacing: 0.02em;
 text-align: left;
 color:var(--main-clor);
 position:relative;
+	    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 30px;
 }
 .navigation ul {
 	display:flex;
 	align-items:center;
 }
 .navigation li {
-	display:inline;
+	display:flex;
+	align-items:center;
 	margin-left:50px;
 }
 .navigation li:first-child {
 margin-left:93px;
 }
 .navigation li:hover {
-	border-bottom: 4px solid var(--four-color);
+	
 }
 .top {
 	display:inline-flex;
@@ -171,6 +176,10 @@ color:var(--secondary-color);
 }
 .top-right:focus .top-icon {
 		fill:var(--four-color);
+}
+.current {
+color:var(--four-color);
+	border-bottom: 4px solid var(--four-color);
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
