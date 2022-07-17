@@ -244,22 +244,17 @@ color:var(--secondary-color);
 	visibility:visible;
 }
 .info {
-	padding-top:50px;
 	padding-bottom:0;
 }
 .info h2 {
-	visibility:hidden;
+	display:none;
 }
 .info ul {
-	height:279px;
 	display: flex;
-	flex-direction: row;
 }
 .info li {
-	display:flex;
-	flex-direction: column;
 	width:270px;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .info h3 {
 	font-size: 14px;
