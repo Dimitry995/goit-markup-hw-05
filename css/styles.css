@@ -252,10 +252,14 @@ color:var(--secondary-color);
 .info ul {
 	display: flex;
 }
+.info li:first-child {
+margin-left:0px;	
+}
 .info li {
 	width:270px;
 	margin-left: 30px;
 }
+
 .info h3 {
 	font-size: 14px;
 	font-weight: 700;
