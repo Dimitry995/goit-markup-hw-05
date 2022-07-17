@@ -59,9 +59,12 @@ img {
 .top {
 	display: flex;
 }
+.menu li:first-child {
+margin-left:0;	
+}
 .menu li {
 	display:inline-flex;
-	margin-left:15px;
+	margin-left:30px;
 }
 .menu a {
 font-weight: 500;
@@ -180,8 +183,10 @@ color:var(--secondary-color);
 	text-align: center;
 	color:var(--third-color);
 	width: 700px;
-	margin:0 auto;
+	margin-left:auto;
+	margin-right:auto;
 	text-transform: uppercase;
+	margin-bottom:30px;
 
 	
 }
@@ -193,7 +198,6 @@ color:var(--secondary-color);
 	border-radius: 4px;
 	font-size: 16px;
 	font-weight: 700;
-	line-height: 0.53;
 	letter-spacing: 0.06em;
 	text-align: center;
 	color:var(--third-color);
