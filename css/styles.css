@@ -322,14 +322,12 @@ margin-left:0px;
 .img li:last-child {
 	padding-right:0;
 }
-.img-img {
-	width:370px;
-	position:relative;	
+.img-img {	
 }
 .img-block {
 	position:absolute;
-	height:60px;
-	width:370px;
+	height:70px;
+	width:100%;
 	bottom:0;
 	background: rgba(47, 48, 58, 0.8);
 	text-align:center;
