@@ -53,7 +53,8 @@ img {
 .menu {
 	height:80px;
 	display:flex;
-	border:1px solid #ececec;
+	border:1px solid var(--nine-color);
+	align-items:center;
 }
 .top {
 	display: flex;
