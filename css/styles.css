@@ -59,11 +59,6 @@ img {
 .top {
 	display: flex;
 }
-.menu ul {
-	height:45px;
-	 margin-top:32px;
-
-}
 .menu li {
 	display:inline-flex;
 	margin-left:15px;
@@ -97,7 +92,6 @@ a.logo  {
 .navigation{
 	display: inline;
     margin-right: 0;
-    width: 400px;
     padding-left: 0;
 }
 .navigation a::after {
@@ -116,7 +110,6 @@ position:relative;
 }
 .navigation ul {
 	display:inline-flex;
-	margin-top: 32px;
 }
 .navigation li {
 	display:inline;
@@ -130,9 +123,7 @@ margin-left:93px;
 }
 .top {
 	display:inline-flex;
-	float:right;
-	margin-top: 32px;
-	width:300px;
+	margin-left:250px;
 }
 .top-right a {
 font-weight: 500;
