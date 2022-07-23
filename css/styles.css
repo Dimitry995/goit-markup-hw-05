@@ -494,15 +494,16 @@ margin-bottom: 50px;
 }
 .clients-icon {
 	fill:var(--eight-color);
-	  transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .clients li:hover {
 	border: 1px solid var(--four-color);
 }
 .clients li:hover .clients-icon {
 	fill:var(--four-color);
+	  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients li:focus {
