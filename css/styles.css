@@ -444,9 +444,6 @@ border-radius: 0px 0px 4px 4px;
     justify-content: center;
     align-items: center;
 	fill: #afb1b8;
-transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
     fill: var(--eight-color);
@@ -459,6 +456,9 @@ transition-property: background-color, fill;
 	height:44px;
 	border-radius: 50%;
 	background-color: var(--four-color);
+	transition-property: background-color;
+    	transition-duration: 250ms;
+    	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social li:last-child {
 	margin-right:26px;
