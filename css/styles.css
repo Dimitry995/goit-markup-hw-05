@@ -258,6 +258,9 @@ color:var(--four-color);
 .backdrop.hidden {
 	visibility:visible;
 }
+.modal.hidden {
+	visibility:visible;
+}
 .info {
 	padding-bottom:0;
 }
