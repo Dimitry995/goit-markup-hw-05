@@ -200,7 +200,7 @@ color:var(--four-color);
 
 	
 }
-.hero  button {
+.hero-button {
 	height:50px;
 	width:200px;
 	background: var(--four-color);
@@ -243,6 +243,13 @@ color:var(--four-color);
 	border-radius: 50%;
 	width: 30px;
     	height: 30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.modal=close-button svg {
+height:11px;
+width:11px;
 }
 }
 .background {
