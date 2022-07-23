@@ -760,7 +760,13 @@ margin-bottom:20px;
 		width:44px;
 		border-radius:50%;
 		background-color:var(--ten-color);
+		 transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
+.footer-social-link {
+   
+}
 	.logo-color-white {
 		color:var(--third-color);
 	}
