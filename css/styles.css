@@ -247,8 +247,11 @@ color:var(--four-color);
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	background-color:var(--third-color);
+	margin-right: 8px;
+    	margin-top: 8px;
 }
-.modal=close-button svg {
+.modal-close-button svg {
 height:11px;
 width:11px;
 }
