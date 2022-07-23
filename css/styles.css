@@ -335,6 +335,8 @@ margin-left:0px;
 	bottom:0;
 	background: rgba(47, 48, 58, 0.8);
 	text-align:center;
+	display: flex;
+    justify-content: center;
 }
 .img-h3 {
 font-weight: 700;
@@ -471,6 +473,9 @@ margin-bottom: 50px;
 }
 .clients-icon {
 	fill:var(--eight-color);
+	  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients li:hover {
 	border: 1px solid var(--four-color);
@@ -519,7 +524,7 @@ font-size: 16px;
     padding: 6px 22px;
     border: none;
 	cursor: pointer;
-    transition-property: backgroud-color, color, box-shadow;
+    transition-property: backgroud-color, color, box-shadow, border, order-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }   
