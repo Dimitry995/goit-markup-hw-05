@@ -707,6 +707,9 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--third-color);
 font-style: normal;
+	    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 li.email-phone {
@@ -715,6 +718,9 @@ letter-spacing: 0.03em;
 text-align: left;
 color:var(--secondary-color);
 font-style: normal;
+	    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .center {
 margin-left:70px;
