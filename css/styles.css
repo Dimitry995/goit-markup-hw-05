@@ -227,6 +227,7 @@ color:var(--four-color);
 	
 }
 .modal {
+	visibility:hidden;
 	position:absolute;
 	height:581px;
 	width:530px;
