@@ -103,7 +103,6 @@ a.logo  {
 font-weight: 500;
 letter-spacing: 0.02em;
 text-align: left;
-color:var(--main-clor);
 position:relative;
 	    display: flex;
     align-items: center;
