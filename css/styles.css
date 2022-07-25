@@ -60,7 +60,7 @@ img {
 .menu {
 	height:80px;
 	display:flex;
-	border:1px solid var(--nine-color);
+	border-bottom:1px solid var(--nine-color);
 	align-items:center;
 }
 .top {
@@ -79,9 +79,15 @@ color:var(--main-color);
 }
 .menu a:hover {
 	color:var(--four-color);
+	transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu a:focus {
 	color:var(--four-color);
+	transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 a.logo  {
 	color:var(--four-color);
@@ -170,6 +176,16 @@ color:var(--secondary-color);
 .current {
 color:var(--four-color);
 	border-bottom: 4px solid var(--four-color);
+}
+.current::after {
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: 28px;
+    background-image: url(../images/hover.png);
+    background-size: cover;
+    border-radius: 2px;
+    
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
