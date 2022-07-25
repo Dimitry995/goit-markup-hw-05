@@ -108,12 +108,8 @@ a.logo  {
 .navigation a {
 font-weight: 500;
 letter-spacing: 0.02em;
-text-align: left;
-position:relative;
-	    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 30px;
+display: flex;
+align-items: center;
 }
 .navigation-list {
 	display:flex;
@@ -129,8 +125,7 @@ position:relative;
 	color:var(--four-color);
 }
 .top {
-	display:inline-flex;
-	margin-left:250px;
+	margin-left:auto;
 }
 .top-right a {
 font-weight: 500;
