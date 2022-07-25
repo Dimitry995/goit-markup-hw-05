@@ -180,7 +180,7 @@ color:var(--four-color);
     display: block;
     height: 4px;
     margin-top: 28px;
-    background-image: url(./images/hover.png);
+    background-image: url(../images/hover.png);
     background-size: cover;
     border-radius: 2px;   
 }
