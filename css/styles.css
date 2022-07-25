@@ -271,10 +271,6 @@ display:block;
     	margin-top: 8px;
 	background-color: transparent;
 }
-.modal-close-button svg {
-height:11px;
-width:11px;
-}
 .modal-close-button use {
 height:11px;
 	width:11px;
