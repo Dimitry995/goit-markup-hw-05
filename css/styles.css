@@ -547,6 +547,7 @@ margin-right:0;
 }
 .filters-list {
 	margin-bottom:50px;
+	display:flex;
 	justify-content: center;
 }
 .filters-link {
