@@ -666,7 +666,7 @@ margin-bottom:20px;
 	width: 370px;
 	height: 294px;
 	background: rgba(33, 150, 243, 0.9);
-	transform:translateY(100%); 
+	transform:translateY(200%); 
 	transition: transform 250ms ease;
 	visibility: hidden;
 	color:var(--third-color);
