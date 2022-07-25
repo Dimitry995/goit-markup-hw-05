@@ -727,7 +727,7 @@ margin-bottom:0px;
 	list-style: none;
 
 }
-li.adress {
+.adress a {
 margin-top:20px;
 margin-bottom:9px;
 letter-spacing: 0.03em;
@@ -735,7 +735,7 @@ text-align: left;
 color: var(--third-color);
 font-style: normal;
 }
-li.email-phone {
+.email-phone a {
 margin-bottom:9px;
 letter-spacing: 0.03em;
 text-align: left;
