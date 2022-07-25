@@ -116,6 +116,10 @@ align-items: center;
 	align-items:center;
 	margin-left:93px;
 }
+.navigation li:firts-child {
+	margin-left:0;
+}
+	
 .navigation li {
 	display:flex;
 	align-items:center;
