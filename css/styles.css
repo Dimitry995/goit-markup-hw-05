@@ -806,7 +806,7 @@ margin-bottom:20px;
 	.logo-color-white {
 		color:var(--third-color);
 	}
-.email-phone:hover {
+.email-phone a:hover {
 	color:var(--four-color);
 	transition-property: color;
     	transition-duration: 250ms;
