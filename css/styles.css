@@ -174,17 +174,15 @@ color:var(--secondary-color);
 }
 .current {
 color:var(--four-color);
-	border-bottom: 4px solid var(--four-color);
 }
 .current::after {
     content: "";
     display: block;
     height: 4px;
     margin-top: 28px;
-    background-image: url(../images/hover.png);
+    background-image: url(./images/hover.png);
     background-size: cover;
-    border-radius: 2px;
-    
+    border-radius: 2px;   
 }
 /*--HEADER--END--*/
 /*--MAIN--HERO-START--*/
