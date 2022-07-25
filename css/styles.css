@@ -728,13 +728,19 @@ margin-bottom:0px;
 	list-style: none;
 
 }
-.adress a {
-margin-top:20px;
+.adress {
+	margin-top:20px;
 margin-bottom:9px;
+	
+}
+.adress a {
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--third-color);
 font-style: normal;
+}
+.email-phone {
+margin-bottom:9px;	
 }
 .email-phone a {
 margin-bottom:9px;
