@@ -672,7 +672,7 @@ letter-spacing: 0.03em;
 color: var(--third-color);
 }
 .content-item:hover .overlay {
-	transform:translateY(0%);
+	transform:translateY(-100%);
 	visibility: visible;
 }
 .content-item:nth-child(7) {
