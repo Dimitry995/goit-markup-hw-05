@@ -243,9 +243,7 @@ color:var(--four-color);
 	height:100%;
 	background-color:rgba(0, 0, 0, 0.2);
 	opacity:1;
-	    transition: opacity 1250ms cubic-bezier(0.4, 0, 0.2, 1);
-	
-	
+	transition: opacity 1250ms cubic-bezier(0.4, 0, 0.2, 1);		
 }
 .modal {
 	height:581px;
@@ -271,6 +269,7 @@ color:var(--four-color);
 	background-color:var(--third-color);
 	margin-right: 8px;
     	margin-top: 8px;
+	background-color: transparent;
 }
 .modal-close-button svg {
 height:11px;
