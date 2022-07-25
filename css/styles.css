@@ -609,6 +609,9 @@ font-size: 16px;
 	flex-direction:column;
 	position: relative;
 }
+.content-img {
+	position:relative;
+}
 .content-item {
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
@@ -677,7 +680,7 @@ letter-spacing: 0.03em;
 color: var(--third-color);
 }
 .content-item:hover .overlay {
-	transform:translateY(0);
+	transform:translateY(-100%);
 	visibility: visible;
 }
 .content-item:nth-child(7) {
